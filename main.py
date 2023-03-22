@@ -1,4 +1,5 @@
 # Meghana's code
+# partner - Kathy
 def encode(number):
     encoded_password = ""
     if len(number) == 8: # this if statement ensures that this function works only is input is 8 characters long
@@ -9,7 +10,7 @@ def encode(number):
 
 def menu(): # menu function prints the display menu
     print("Menu")
-    print("-------------")
+    print("-----------")
     print("1.Encode")
     print("2.Decode")
     print("3.Quit")
